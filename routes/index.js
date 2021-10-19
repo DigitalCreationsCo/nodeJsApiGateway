@@ -4,7 +4,6 @@ const axios = require('axios')
 const registry = require('./registry.json')
 const fs = require('fs')
 const loadBalancer = require("../util/loadBalancer")
-const { resolveSoa } = require('dns')
 const httpClient = axios
 
 router.post("/enable/:apiName", (req, res) => {
