@@ -78,5 +78,5 @@ app.listen(PORT, () => {
   .catch((e) => {
     console.error({"error": e})
   })
-  console.log(`fakeAPI launch on port ${PORT}`)
+  console.log(`Service API launch on port ${PORT}`)
 })
